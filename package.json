@@ -1,0 +1,53 @@
+{
+  "name": "csv-checksum",
+  "version": "0.1.0",
+  "description": "Hash-verify CSV data migrations. Snapshot a CSV, then prove it arrived intact on the other side.",
+  "keywords": [
+    "csv",
+    "checksum",
+    "hash",
+    "fingerprint",
+    "data-migration",
+    "validation",
+    "integrity",
+    "etl"
+  ],
+  "homepage": "https://github.com/jetstackai/csv-checksum",
+  "bugs": "https://github.com/jetstackai/csv-checksum/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jetstackai/csv-checksum.git"
+  },
+  "license": "MIT",
+  "author": "ambrstack <talk@ambrstack.com> (https://flitstack.ai)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "csv-checksum": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --import=tsx test/index.test.ts",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

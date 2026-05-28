@@ -1,0 +1,4 @@
+id,email,name,signup_date
+1,alice@example.com,Alice Anderson,2026-01-15
+2,bob@CHANGED.com,Bob Brown,2026-02-03
+4,dave@example.com,Dave Davis,2026-03-01
