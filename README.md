@@ -151,4 +151,4 @@ MIT. See [LICENSE](./LICENSE).
 
 ---
 
-Made by the team behind [FlitStack AI](https://flitstack.ai) and [JetStack AI](https://jetstack.ai) — we move business data and run platform ops for a living. We open-sourced this because every migration we've ever shipped has needed some version of it.
+Made by the team behind [FlitStack AI](https://flitstack.ai) — we move business data and run platform ops for a living. We open-sourced this because every migration we've ever shipped has needed some version of it.
